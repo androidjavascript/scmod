@@ -1,0 +1,1149 @@
+{
+  "mod_elements": [
+    {
+      "name": "TieBan",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_ban",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/tie_ban.json",
+          "src/main/java/net/mcreator/scmod/item/TieBanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TieChui",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tie_chui",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/tie_chui.json",
+          "src/main/java/net/mcreator/scmod/item/TieChuiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tb",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/tb.json"
+        ]
+      }
+    },
+    {
+      "name": "TC",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/tc.json"
+        ]
+      }
+    },
+    {
+      "name": "TONGBAN",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tongban",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/tongban.json",
+          "src/main/java/net/mcreator/scmod/item/TONGBANItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ROB",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rob",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/tob.json"
+        ]
+      }
+    },
+    {
+      "name": "ZhengQiDaBanJi",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zheng_qi_da_ban_ji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/block/zheng_qi_da_ban_ji.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/zheng_qi_da_ban_ji.json",
+          "src/main/resources/assets/scmod/blockstates/zheng_qi_da_ban_ji.json",
+          "src/main/resources/assets/scmod/models/item/zheng_qi_da_ban_ji.json",
+          "src/main/java/net/mcreator/scmod/block/ZhengQiDaBanJiBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Zqdbjpf",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zqdbjpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/zqdbjpf.json"
+        ]
+      }
+    },
+    {
+      "name": "Zqdbjgui",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zqdbjgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/client/gui/ZqdbjguiScreen.java",
+          "src/main/java/net/mcreator/scmod/world/inventory/ZqdbjguiMenu.java",
+          "src/main/java/net/mcreator/scmod/network/ZqdbjguiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ZhengQiDaBanJiYouJiFangKuaiShi",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zheng_qi_da_ban_ji_you_ji_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ZhengQiDaBanJiYouJiFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ZhengQiDaBanJiYouJiFangK111111111111uaiShi",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zheng_qi_da_ban_ji_you_ji_fang_k_111111111111uai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ZhengQiDaBanJiYouJiFangK111111111111uaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scmod",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scmod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ZhengQiYaSuoJi",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zheng_qi_ya_suo_ji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/zheng_qi_ya_suo_ji.json",
+          "src/main/java/net/mcreator/scmod/block/ZhengQiYaSuoJiBlock.java",
+          "src/main/resources/assets/scmod/models/block/zheng_qi_ya_suo_ji.json",
+          "src/main/resources/assets/scmod/blockstates/zheng_qi_ya_suo_ji.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/zheng_qi_ya_suo_ji.json"
+        ]
+      }
+    },
+    {
+      "name": "ShouYaoZhaYouJi",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shou_yao_zha_you_ji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/blockstates/shou_yao_zha_you_ji.json",
+          "src/main/resources/assets/scmod/models/item/shou_yao_zha_you_ji.json",
+          "src/main/java/net/mcreator/scmod/block/ShouYaoZhaYouJiBlock.java",
+          "src/main/resources/assets/scmod/models/block/shou_yao_zha_you_ji.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/shou_yao_zha_you_ji.json"
+        ]
+      }
+    },
+    {
+      "name": "XiKuang",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xi_kuang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/block/xi_kuang.json",
+          "src/main/resources/data/scmod/worldgen/placed_feature/xi_kuang.json",
+          "src/main/java/net/mcreator/scmod/block/XiKuangBlock.java",
+          "src/main/resources/data/scmod/worldgen/configured_feature/xi_kuang.json",
+          "src/main/resources/data/scmod/forge/biome_modifier/xi_kuang_biome_modifier.json",
+          "src/main/resources/assets/scmod/blockstates/xi_kuang.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/xi_kuang.json",
+          "src/main/resources/assets/scmod/models/item/xi_kuang.json"
+        ]
+      }
+    },
+    {
+      "name": "Shou",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/ShouItem.java",
+          "src/main/resources/assets/scmod/models/item/shou.json"
+        ]
+      }
+    },
+    {
+      "name": "ShouYaoZhaYouJigui",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shou_yao_zha_you_jigui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/client/gui/ShouYaoZhaYouJiguiScreen.java",
+          "src/main/java/net/mcreator/scmod/world/inventory/ShouYaoZhaYouJiguiMenu.java",
+          "src/main/java/net/mcreator/scmod/network/ShouYaoZhaYouJiguiButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "MuChiLun",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mu_chi_lun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/MuChiLunItem.java",
+          "src/main/resources/assets/scmod/models/item/mu_chi_lun.json"
+        ]
+      }
+    },
+    {
+      "name": "Mcl",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/mcl.json"
+        ]
+      }
+    },
+    {
+      "name": "ShouYaoZhaYouJip",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shou_yao_zha_you_jip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ShouYaoZhaYouJipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Syzyj",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syzyj",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/syzyj.json"
+        ]
+      }
+    },
+    {
+      "name": "MuYou",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mu_you",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/block/MuYouBlock.java",
+          "src/main/resources/assets/scmod/models/item/mu_you.json",
+          "src/main/resources/assets/scmod/blockstates/mu_you.json",
+          "src/main/resources/assets/scmod/models/block/mu_you.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/mu_you.json"
+        ]
+      }
+    },
+    {
+      "name": "Zyggui",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zyggui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ZygguiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NieKuang",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nie_kuang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/forge/biome_modifier/nie_kuang_biome_modifier.json",
+          "src/main/resources/assets/scmod/models/item/nie_kuang.json",
+          "src/main/resources/data/scmod/worldgen/placed_feature/nie_kuang.json",
+          "src/main/java/net/mcreator/scmod/block/NieKuangBlock.java",
+          "src/main/resources/data/scmod/loot_tables/blocks/nie_kuang.json",
+          "src/main/resources/assets/scmod/models/block/nie_kuang.json",
+          "src/main/resources/data/scmod/worldgen/configured_feature/nie_kuang.json",
+          "src/main/resources/assets/scmod/blockstates/nie_kuang.json"
+        ]
+      }
+    },
+    {
+      "name": "NieDing",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nie_ding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/NieDingItem.java",
+          "src/main/resources/assets/scmod/models/item/nie_ding.json"
+        ]
+      }
+    },
+    {
+      "name": "Nd",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/nd.json"
+        ]
+      }
+    },
+    {
+      "name": "NieBan",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nie_ban",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/nie_ban.json",
+          "src/main/java/net/mcreator/scmod/item/NieBanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zqysjgui",
+      "type": "gui",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zqysjgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/world/inventory/ZqysjguiMenu.java",
+          "src/main/java/net/mcreator/scmod/network/ZqysjguiButtonMessage.java",
+          "src/main/java/net/mcreator/scmod/client/gui/ZqysjguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Zqysjdm",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zqysjdm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ZqysjdmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GangDing",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gang_ding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/GangDingItem.java",
+          "src/main/resources/assets/scmod/models/item/gang_ding.json"
+        ]
+      }
+    },
+    {
+      "name": "Zqysjj",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zqysjj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ZqysjjProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zqysqpf",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zqysqpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/zqysqpf.json"
+        ]
+      }
+    },
+    {
+      "name": "BanCai",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_cai",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/block/ban_cai.json",
+          "src/main/java/net/mcreator/scmod/block/BanCaiBlock.java",
+          "src/main/resources/data/scmod/loot_tables/blocks/ban_cai.json",
+          "src/main/resources/assets/scmod/models/item/ban_cai.json",
+          "src/main/resources/assets/scmod/blockstates/ban_cai.json"
+        ]
+      }
+    },
+    {
+      "name": "Tbcpf",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbcpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/tbcpf.json"
+        ]
+      }
+    },
+    {
+      "name": "ZiDan",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zi_dan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/ZiDanItem.java",
+          "src/main/resources/assets/scmod/models/item/zi_dan.json"
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/GunItem.java",
+          "src/main/resources/assets/scmod/models/item/gun.json"
+        ]
+      }
+    },
+    {
+      "name": "Gunpf",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/gunpf.json"
+        ]
+      }
+    },
+    {
+      "name": "Zdpf",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zdpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/zdpf.json"
+        ]
+      }
+    },
+    {
+      "name": "Hys",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hys",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/hys.json"
+        ]
+      }
+    },
+    {
+      "name": "Jy",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/jy.json"
+        ]
+      }
+    },
+    {
+      "name": "Headpf",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "headpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/headpf.json"
+        ]
+      }
+    },
+    {
+      "name": "ZidanshitiDanSheWuJiZhongFangKuaiShi",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zidanshiti_dan_she_wu_ji_zhong_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ZidanshitiDanSheWuJiZhongFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zidanshiti",
+      "type": "projectile",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zidanshiti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/entity/ZidanshitiEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GangBan",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gang_ban",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/GangBanItem.java",
+          "src/main/resources/assets/scmod/models/item/gang_ban.json"
+        ]
+      }
+    },
+    {
+      "name": "GangGuoLu",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gang_guo_lu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/gang_guo_lu.json",
+          "src/main/java/net/mcreator/scmod/item/GangGuoLuItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Gglpf",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gglpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/gglpf.json"
+        ]
+      }
+    },
+    {
+      "name": "Gui",
+      "type": "gui",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/world/inventory/GuiMenu.java",
+          "src/main/java/net/mcreator/scmod/network/GuiButtonMessage.java",
+          "src/main/java/net/mcreator/scmod/client/gui/GuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ShaiKuangJiYouJiFangKuaiShi",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shai_kuang_ji_you_ji_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/ShaiKuangJiYouJiFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShaiKuangJi",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shai_kuang_ji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/block/shai_kuang_ji.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/shai_kuang_ji.json",
+          "src/main/resources/assets/scmod/blockstates/shai_kuang_ji.json",
+          "src/main/resources/assets/scmod/models/item/shai_kuang_ji.json",
+          "src/main/java/net/mcreator/scmod/block/ShaiKuangJiBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Guiyx",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiyx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/GuiyxProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sjpf",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sjpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/sjpf.json"
+        ]
+      }
+    },
+    {
+      "name": "XiDing",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xi_ding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/XiDingItem.java",
+          "src/main/resources/assets/scmod/models/item/xi_ding.json"
+        ]
+      }
+    },
+    {
+      "name": "Xdpf",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xdpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/xdpf.json"
+        ]
+      }
+    },
+    {
+      "name": "XiBan",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xi_ban",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/XiBanItem.java",
+          "src/main/resources/assets/scmod/models/item/xi_ban.json"
+        ]
+      }
+    },
+    {
+      "name": "DianChi",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dian_chi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/dian_chi.json",
+          "src/main/java/net/mcreator/scmod/item/DianChiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dcpf",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dcpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/dcpf.json"
+        ]
+      }
+    },
+    {
+      "name": "Xbdb",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xbdb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/xbdb.json"
+        ]
+      }
+    },
+    {
+      "name": "Aiguille",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aiguille",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/AiguilleItem.java",
+          "src/main/resources/assets/scmod/models/item/aiguille.json"
+        ]
+      }
+    },
+    {
+      "name": "DianJi",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dian_ji",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scmod/models/item/dian_ji.json",
+          "src/main/java/net/mcreator/scmod/item/DianJiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DianJiPeiFang",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dian_ji_pei_fang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/recipes/dian_ji_pei_fang.json"
+        ]
+      }
+    },
+    {
+      "name": "YouKuang",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_kuang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scmod/worldgen/placed_feature/you_kuang.json",
+          "src/main/resources/data/scmod/worldgen/configured_feature/you_kuang.json",
+          "src/main/java/net/mcreator/scmod/block/YouKuangBlock.java",
+          "src/main/resources/data/scmod/forge/biome_modifier/you_kuang_biome_modifier.json",
+          "src/main/resources/assets/scmod/models/item/you_kuang.json",
+          "src/main/resources/assets/scmod/models/block/you_kuang.json",
+          "src/main/resources/assets/scmod/blockstates/you_kuang.json",
+          "src/main/resources/data/scmod/loot_tables/blocks/you_kuang.json"
+        ]
+      }
+    },
+    {
+      "name": "YOUWuPinZaiShouShangShiMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you_wu_pin_zai_shou_shang_shi_mei_ke_fa_sheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/procedures/YOUWuPinZaiShouShangShiMeiKeFaShengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YOU",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "you",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/item/YOUItem.java",
+          "src/main/resources/assets/scmod/models/item/you.json"
+        ]
+      }
+    },
+    {
+      "name": "ShouYaoZhaYouJijei",
+      "type": "jeirecipetype",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shou_yao_zha_you_jijei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scmod/jei_recipes/ShouYaoZhaYouJijeiRecipeCategory.java",
+          "src/main/java/net/mcreator/scmod/jei_recipes/ShouYaoZhaYouJijeiRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:YouKuang",
+      "~CUSTOM:ShaiKuangJi",
+      "~CUSTOM:BanCai",
+      "~CUSTOM:XiKuang",
+      "~CUSTOM:ZhengQiDaBanJi"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:ShaiKuangJi",
+      "~CUSTOM:BanCai",
+      "~CUSTOM:XiKuang"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.scmod.gang_guo_lu": "Gang Guo Lu",
+      "item.scmod.gang_ding": "Gang Ding",
+      "item.scmod.shou": "Shou",
+      "gui.scmod.zqdbjgui.button_zhi_zao": "制造",
+      "block.scmod.shou_yao_zha_you_ji": "Shou Yao Zha You Ji",
+      "item.scmod.dian_chi": "Dian Chi",
+      "block.scmod.nie_kuang": "Nie Kuang",
+      "item_group.scmod.scmod": "Scmod",
+      "item.scmod.zi_dan": "Zi Dan",
+      "block.scmod.zheng_qi_da_ban_ji": "Zheng Qi Da Ban Ji",
+      "item.scmod.tongban": "TONGBAN",
+      "gui.scmod.shou_yao_zha_you_jigui.label_fang_ru_mu_tou_yi_kai_shi_zha_you": "放入木头以开始榨油",
+      "item.scmod.mu_chi_lun": "Mu Chi Lun",
+      "gui.scmod.shou_yao_zha_you_jigui.button_zhi_zao": "制造",
+      "item.scmod.you": "YOU",
+      "block.scmod.shai_kuang_ji": "Shai Kuang Ji",
+      "gui.scmod.gui.button_shai": "筛",
+      "item.scmod.dian_ji": "Dian Ji",
+      "gui.scmod.zqysjgui.button_zhi_zao": "制造",
+      "gui.scmod.zqdbjgui.label_zheng_qi": "蒸汽",
+      "item.scmod.nie_ding": "Nie Ding",
+      "item.scmod.gang_ban": "Gang Ban",
+      "item.scmod.tie_ban": "铁板",
+      "block.scmod.you_kuang": "You Kuang",
+      "item.scmod.tie_chui": "Tie Chui",
+      "item.scmod.xi_ding": "Xi Ding",
+      "block.scmod.xi_kuang": "Xi Kuang",
+      "item.scmod.aiguille": "Aiguille",
+      "item.scmod.nie_ban": "Nie Ban",
+      "item.scmod.gun": "Gun",
+      "item.scmod.xi_ban": "Xi Ban",
+      "gui.scmod.gui.label_fang_ru_mei_tan": "放入煤炭",
+      "block.scmod.zheng_qi_ya_suo_ji": " zqysj",
+      "block.scmod.mu_you": "Mu You",
+      "block.scmod.ban_cai": "Ban Cai"
+    },
+    "zh_cn": {
+      "item.scmod.gang_guo_lu": "钢锅炉",
+      "item.scmod.gang_ding": "钢锭",
+      "item.scmod.shou": "手",
+      "gui.scmod.zqdbjgui.button_zhi_zao": "制造",
+      "block.scmod.shou_yao_zha_you_ji": "手摇榨油机",
+      "item.scmod.dian_chi": "电池",
+      "block.scmod.nie_kuang": "镍矿",
+      "item_group.scmod.scmod": "Sc的科技模组",
+      "item.scmod.zi_dan": "子弹",
+      "block.scmod.zheng_qi_da_ban_ji": "蒸汽打板机",
+      "item.scmod.tongban": "铜板",
+      "gui.scmod.shou_yao_zha_you_jigui.label_fang_ru_mu_tou_yi_kai_shi_zha_you": "放入木头以开始榨油",
+      "item.scmod.mu_chi_lun": "木齿轮",
+      "gui.scmod.shou_yao_zha_you_jigui.button_zhi_zao": "制造",
+      "item.scmod.you": "铀",
+      "block.scmod.shai_kuang_ji": "筛矿机",
+      "gui.scmod.gui.button_shai": "筛",
+      "item.scmod.dian_ji": "电机",
+      "gui.scmod.zqysjgui.button_zhi_zao": "制造",
+      "gui.scmod.zqdbjgui.label_zheng_qi": "蒸汽",
+      "item.scmod.nie_ding": "镍锭",
+      "item.scmod.gang_ban": "钢板",
+      "item.scmod.tie_ban": "铁板",
+      "block.scmod.you_kuang": "铀矿",
+      "item.scmod.tie_chui": "铁锤",
+      "item.scmod.xi_ding": "锡锭",
+      "block.scmod.xi_kuang": "锡矿",
+      "item.scmod.aiguille": "钻头",
+      "item.scmod.nie_ban": "镍板",
+      "item.scmod.gun": "枪",
+      "item.scmod.xi_ban": "锡板",
+      "gui.scmod.gui.label_fang_ru_mei_tan": "放入煤炭",
+      "block.scmod.zheng_qi_ya_suo_ji": "蒸汽压缩机",
+      "block.scmod.mu_you": "木油",
+      "block.scmod.ban_cai": "铁板材"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "scmod",
+    "modName": "Scmod For Minecraft",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.scmod"
+  },
+  "mcreatorVersion": 202400118518
+}
